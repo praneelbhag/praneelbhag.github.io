@@ -123,6 +123,22 @@ nav ul li a:hover {
     border: 5px solid #f4f4f4;
 }
 
+/* Section for multiple images */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 5px solid #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .about-section {
