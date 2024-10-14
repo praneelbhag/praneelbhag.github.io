@@ -21,12 +21,36 @@ p {
     line-height: 1.6;
 }
 
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header-logo img {
+    max-width: 100px; /* Adjust this size as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: adds a circular effect to the logo */
+}
+
+.header-text h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.1em;
+    color: #ddd;
+}
+
 /* Navigation Styles */
 nav {
-    background-color: #333;
+    background-color: #444;
     padding: 10px 0;
-    position: sticky;
-    top: 0;
     width: 100%;
 }
 
@@ -99,5 +123,14 @@ nav ul li a:hover {
 
     .image-content img {
         width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-logo img {
+        margin-bottom: 20px;
     }
 }
