@@ -130,6 +130,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     gap: 20px; /* Space between images */
     margin-top: 20px;
+    flex: 50px;
 }
 
 .image-gallery img {
@@ -137,6 +138,7 @@ nav ul li a:hover {
     border-radius: 10px;
     border: 5px solid #f4f4f4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .image-seaperch img {
@@ -150,6 +152,7 @@ nav ul li a:hover {
     margin-top: 20px;
     border: 5px solid #f4f4f4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 50px;
 }
 
 /* Responsive Styles */
