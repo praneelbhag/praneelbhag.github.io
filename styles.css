@@ -97,7 +97,7 @@ nav ul li a:hover {
 .about-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
     padding: 40px;
     background-color: white;
     margin: 20px auto;
