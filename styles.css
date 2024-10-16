@@ -58,15 +58,16 @@ header {
 }
 
 .header-text h1 {
-    font-size: 2.2em;
-    margin-bottom: 5px; /* Reduced the margin between the name and description */
+    font-size: 2.5em; /* Increase the size slightly */
+    margin-bottom: 2px; /* Further reduce the margin */
     color: white;
 }
 
 .header-text p {
-    font-size: 1.1em;
-    color: #dddddd;
-    margin-top: 0; /* Removed any top margin to bring it closer to the name */
+    font-size: 1.3em; /* Increase font size for better visibility */
+    font-weight: bold; /* Make the description bold */
+    color: #eeeeee; /* Lighten the description color slightly */
+    margin-top: 0; /* Ensure there is no top margin */
 }
 
 
