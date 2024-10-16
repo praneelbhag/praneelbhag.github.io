@@ -59,14 +59,16 @@ header {
 
 .header-text h1 {
     font-size: 2.2em;
-    margin-bottom: 10px;
-    color: white;  /* Keep the name white */
+    margin-bottom: 5px; /* Reduced the margin between the name and description */
+    color: white;
 }
 
 .header-text p {
     font-size: 1.1em;
-    color: #dddddd;  /* Light gray for the description */
+    color: #dddddd;
+    margin-top: 0; /* Removed any top margin to bring it closer to the name */
 }
+
 
 /* Navigation Styles */
 nav {
